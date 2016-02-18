@@ -1,0 +1,34 @@
+<html ng-app="app">
+  <head>
+    <style type="text/css">
+      .orange {
+        color: orange;
+      }
+      .italic {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div ng-controller="MainController">
+
+      <h1 class="orange italic">Hello there!</h1>
+      
+      <!-- <h1 ng-class="'orange'">Hello there!</h1> -->
+
+      <!-- <h1 ng-class="classVar">Hello there!</h1> -->
+      
+      <!-- <h1 ng-class="[classVar, 'italic']">Hello there!</h1> -->
+
+      <!-- Toggle class -->
+      <!-- <h1 ng-class="{orange: true}">Hello there!</h1> -->
+      <!-- <h1 ng-class="{orange: canUseOrange}">Hello there!</h1>
+      <h1 ng-class="{orange: canUseOrange, italic: true}">Hello there!</h1> -->
+
+    </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
