@@ -10,7 +10,8 @@ Setting up the Code Lab is pretty simple if you have [Git][git] installed (if yo
 
 ## What is in the codelab parts?
 
-The following material is contained in the branches of the codelab
+The following material is contained in the two branches of the codelab:
+[part1][part1] and [part2][part2]. The [master][master] branch contains both parts.
 
 ### part1 branch
 
@@ -43,3 +44,6 @@ Cheers! -Ken
 
 
 [git]: https://git-scm.com/
+[part1]: https://github.com/switchspan/AngularCodeLab/tree/part1
+[part2]: https://github.com/switchspan/AngularCodeLab/tree/part2
+[master]: https://github.com/switchspan/AngularCodeLab/tree/master
