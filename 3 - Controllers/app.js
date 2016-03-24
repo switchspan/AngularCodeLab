@@ -1,9 +1,9 @@
-var app = angular.module('app', []);
+var app = angular.module('app', ['controllers']);
 
 // 1st way (can't do in 1.5.0)
-var MainController = function($scope) {
-  $scope.val = "test123"
-}
+// var MainController = function($scope) {
+//   $scope.val = "test123"
+// }
 
 // 2nd way (what we use for learning)
 // app.controller('MainController', function($scope) {
@@ -11,6 +11,7 @@ var MainController = function($scope) {
 // })
 
 // Best way (what is preferred in production)
-// angular.module('controllers', []).controller('MainController', function($scope) {
-//   $scope.val = "test789"
-// })
+angular.module('controllers', [])
+.controller('MainController', function($scope) {
+  $scope.val = "test789"
+})

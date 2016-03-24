@@ -4,6 +4,6 @@ app.controller('MainController', function($scope) {
 
 })
 
-// app.controller('SubController', function($scope) {
+app.controller('SubController', function($scope) {
 
-// })
+})
