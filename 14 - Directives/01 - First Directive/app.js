@@ -5,13 +5,13 @@ app.controller('MainController', function($scope) {
                   date:"March 10th, 2013"}
 })
 
+// The jQuery-ish way
+
 app.directive('photo', function() {
   return {
     restrict: 'E',
-
     template: '<figure><img width="500px"/><figcaption/></figure>',
     replace: true,
-
     link: function(scope, element, attrs) {
       attrs.$observe('caption', function(value) {
         element.find('figcaption').text(value)
@@ -23,6 +23,8 @@ app.directive('photo', function() {
     }
   }
 })
+
+// The right way
 
 // app.directive('photo', function() {
 //     return {
