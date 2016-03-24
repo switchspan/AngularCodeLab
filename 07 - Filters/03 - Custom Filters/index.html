@@ -2,10 +2,13 @@
   <body>
     <div ng-controller="MainController">
       <input ng-model="mydata.str">
-      <!-- {{ mydata.str | charlimit }}  -->
-      <div ng-repeat="user in mydata.arr | candrink:mydata.str">
+      {{ mydata.str | charlimit }} 
+      <!-- <div ng-repeat="user in mydata.arr | candrink:25">
         {{ user }}
-      </div>
+      </div> -->
+      <!-- <div ng-repeat="user in mydata.arr | candrink:mydata.str">
+        {{ user }}
+      </div> -->
     </div>
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>

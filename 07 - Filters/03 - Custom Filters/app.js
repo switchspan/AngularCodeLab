@@ -21,18 +21,18 @@ app.filter('charlimit', function() {
   }
 })
 
-app.filter('candrink', function() {
-  return function(data,minage) {
-    var filtered = [];
-    if (!minage) {
-      minage = 21
-    }
-    for (var i=0;i<data.length;i++) {
-      var value = data[i];
-      if (value.age >= minage) {
-        filtered.push(value);
-      }
-    }
-    return filtered;
-  }
-})
+// app.filter('candrink', function() {
+//   return function(data,minage) {
+//     var filtered = [];
+//     if (!minage) {
+//       minage = 21
+//     }
+//     for (var i=0;i<data.length;i++) {
+//       var value = data[i];
+//       if (value.age >= minage) {
+//         filtered.push(value);
+//       }
+//     }
+//     return filtered;
+//   }
+// })
