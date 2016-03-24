@@ -36,7 +36,10 @@ The following material is contained in the two branches of the codelab:
 12. Services
 13. Directives
 14. Routing
-15. E2E Testing
+
+Coming later
+15. Unit Testing
+16. E2E Testing
 
 Cheers! -Ken
 

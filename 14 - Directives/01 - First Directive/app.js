@@ -35,3 +35,13 @@ app.directive('photo', function() {
 //         }
 //     }
 // })
+
+// Common directive types:
+// 
+// myDirective
+// 
+// <my-directive></my-directive>
+// <div mydirective></div>
+// <div class="my-directive"></div>
+// <!-- my-directive -->
+// 
